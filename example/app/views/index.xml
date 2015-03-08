@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container" onClick="onClick">
+		<View id="view">
+			<View id="innerView"></View>
+		</View>
+	</Window>
+</Alloy>

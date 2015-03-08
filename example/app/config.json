@@ -1,0 +1,15 @@
+{
+    "global": {
+        "autoStyle": true
+        },
+    "env:development": {},
+    "env:test": {},
+    "env:production": {},
+    "os:android": {},
+    "os:blackberry": {},
+    "os:ios": {},
+    "os:mobileweb": {},
+    "dependencies": {
+        "io.codly.state": "1.0"
+    }
+}
