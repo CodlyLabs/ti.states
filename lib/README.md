@@ -3,10 +3,13 @@
 UIStatesManager is a component that enables you define states for your user interface components. It changes the properties from one state to another with smooth ease animation. All you need is to define state specific styles and UIStatesManager will do the trasition automatically. 
 
 
+![enter image description here](https://raw.githubusercontent.com/CodlyLabs/ti.states/master/images/preview.gif)
+
+
 ## Quick Start
 
 ### Get it 
-Add `lib/ti.states.js` to your  lib folder inside your project. 
+Add `lib/ti.states.`js to your  lib folder inside your project. 
 
 ### Use it
 First you have to add state specific styles to your tss like this:
