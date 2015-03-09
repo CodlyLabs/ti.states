@@ -32,22 +32,6 @@ First you have to add state specific styles to your tss like this:
 	width: '50%',
 	height: '50%'
 }
-
-"#innerView": {
-	backgroundColor: 'yellow',
-	left: '25%',
-	width: '50%',
-	top: '25%',
-	height: '50%'
-}
-
-"#innerView:state1": {
-	opacity: 0
-}
-
-"#innerView:state2": {
-	opacity: 1
-}
 ```
 
 Then require and initalize ti.states in your controller
