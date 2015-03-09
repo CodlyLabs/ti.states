@@ -9,7 +9,7 @@ UIStatesManager is a component that enables you define states for your user inte
 ## Quick Start
 
 ### Get it 
-Add `lib/ti.states.`js to your  lib folder inside your project. 
+Add `lib/ti.states.js` to your  lib folder inside your project. 
 
 ### Use it
 First you have to add state specific styles to your tss like this:
