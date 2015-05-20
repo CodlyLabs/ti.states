@@ -16,7 +16,12 @@ First you have to add state specific styles to your tss like this:
 
 ``` js
 "#view": {
-	backgroundColor: "red"
+	backgroundColor: "red",
+	// default
+	top: '80%',
+	right: '10%',
+	width: '20%',
+	height: '13%'
 }
 
 "#view:state1": {
@@ -36,8 +41,9 @@ First you have to add state specific styles to your tss like this:
 
 Then require and initalize ti.states in your controller
 ``` js
-var stateManager = require('ti.states');
-stateManager.init($, "state1"); // initalize with current controller, default state
+var Manager = require('ti.states');
+var stateManager = new Manager($)
+
 ```
 
 Then you can easily change your UI to any of your states
