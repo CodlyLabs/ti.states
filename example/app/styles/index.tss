@@ -3,7 +3,11 @@
 }
 
 "#view": {
-	backgroundColor: "red"
+	backgroundColor: "red",
+	top: '80%',
+	right: '10%',
+	width: '20%',
+	height: '13%'
 }
 
 "#view:state1": {
@@ -25,7 +29,8 @@
 	left: '25%',
 	width: '50%',
 	top: '25%',
-	height: '50%'
+	height: '50%',
+	opacity: 0
 }
 
 "#innerView:state1": {
