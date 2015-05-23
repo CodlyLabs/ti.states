@@ -1,7 +1,5 @@
 {
-    "global": {
-        "autoStyle": true
-        },
+    "global": {},
     "env:development": {},
     "env:test": {},
     "env:production": {},
@@ -10,6 +8,5 @@
     "os:ios": {},
     "os:mobileweb": {},
     "dependencies": {
-        "io.codly.state": "1.0"
     }
 }

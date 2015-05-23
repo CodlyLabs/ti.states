@@ -1,13 +1,10 @@
-var stateManager = require('ti.states'),
-	state = "state1";
-
-stateManager.init($, state);
+var Manager = require('ti.states'),
+    stateManager = new Manager($),
+    state = "state1";
 
 $.index.open();
 
-console.log()
-
-function onClick () {
-	state == "state1"? state = "state2": state = "state1";
-	stateManager.changeToState(state,500);
-}	
+function onClick() {
+	state = state === "state1" ? "state2" : "state1";
+	stateManager.changeToState(state, 500);
+}
