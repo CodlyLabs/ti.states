@@ -4,5 +4,8 @@
   "description": "UI state manager for Appcelerator Titanium",
   "main": "ti.states.js",
   "author": "Codly.io",
-  "license": "MIT"
+  "license": "MIT",
+  "titaniumManifest": {
+    "guid": "562c81f7-39c2-4725-a59b-5996e0498cef"
+  }
 }
