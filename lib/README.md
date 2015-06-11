@@ -9,14 +9,19 @@ UIStatesManager is a component that enables you define states for your user inte
 ## Quick Start
 
 ### Get it 
-Add `lib/ti.states.`js to your  lib folder inside your project. 
+Add `lib/ti.states.js` to your  lib folder inside your project. 
 
 ### Use it
 First you have to add state specific styles to your tss like this:
 
 ``` js
 "#view": {
-	backgroundColor: "red"
+	backgroundColor: "red",
+	// default
+	top: '80%',
+	right: '10%',
+	width: '20%',
+	height: '13%'
 }
 
 "#view:state1": {
@@ -32,28 +37,13 @@ First you have to add state specific styles to your tss like this:
 	width: '50%',
 	height: '50%'
 }
-
-"#innerView": {
-	backgroundColor: 'yellow',
-	left: '25%',
-	width: '50%',
-	top: '25%',
-	height: '50%'
-}
-
-"#innerView:state1": {
-	opacity: 0
-}
-
-"#innerView:state2": {
-	opacity: 1
-}
 ```
 
 Then require and initalize ti.states in your controller
 ``` js
-var stateManager = require('ti.states');
-stateManager.init($, "state1"); // initalize with current controller, default state
+var Manager = require('ti.states');
+var stateManager = new Manager($)
+
 ```
 
 Then you can easily change your UI to any of your states
