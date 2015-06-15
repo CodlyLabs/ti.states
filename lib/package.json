@@ -1,5 +1,5 @@
 {
-  "name": "titaniumManifest.ti.states",
+  "name": "ti.states",
   "version": "1.0.0",
   "description": "UI state manager for Appcelerator Titanium",
   "main": "ti.states.js",
